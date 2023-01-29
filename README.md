@@ -8,11 +8,17 @@ To get the API Key https://beta.openai.com/account/api-keys
 
 # OpenSSL Windows 
 To install openssl with vcpkg
+
 ./vcpkg.exe install openssl:x64-windows
+
 ./vcpkg.exe integrate install
 
-# you may want to add this to the system environment variables since you'll need it to compile the crate
-set VCPKGRS_DYNAMIC=1
+# You may
+- want to add this to the system environment variables since you'll need it to compile the crate
 
-# you may need to install strawberry perl 
+  set VCPKGRS_DYNAMIC=1
+
+- need to install strawberry perl 
 https://strawberryperl.com/
+
+# Cargo run and be Happy
