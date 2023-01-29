@@ -21,4 +21,4 @@ To install openssl with vcpkg
 - need to install strawberry perl 
 https://strawberryperl.com/
 
-# Cargo run and be Happy
+# Cargo run and be happy 😁
